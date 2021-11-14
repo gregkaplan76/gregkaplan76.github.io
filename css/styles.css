@@ -33,7 +33,15 @@ header {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding-block: 20px;
+    background-color: grey;
 }
 
 header img {
@@ -114,8 +122,20 @@ nav li a {
 }
 
 /* Style rules for main content */
+p {
+    font-family: Arial, sans-serif;
+}
+
+.intro, li {
+    font-family: Helvetica, sans-serif;
+}
+
+li { 
+    font-family: Arial, sans-serif; 
+}
+
 main {
-    background-color: #fff;
+    background-color: #ffff;
     padding: 2%;
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
@@ -123,26 +143,6 @@ main {
 
 .mobile h3 {
     text-shadow: 5px 5px 8px #ccc;
-}
-
-article {
-    padding: 2%;
-}
-
-article h3{
-    text-align: center;
-}
-
-article img {
-    margin: 0 auto;
-}
-
-article ul {
-    margin-left: 10%;
-}
-
-article:nth-of-type(2) {
-    background-color: rgba(204, 204, 204, 0.3); 
 }
 
 .tel-link {
@@ -159,10 +159,6 @@ article:nth-of-type(2) {
     text-decoration: none;
     font-size: 1.5em;
     display: block;
-}
-
-.hours {
-    margin-left: 10%;
 }
 
 .action {
@@ -210,7 +206,7 @@ article:nth-of-type(2) {
 }
 
 .map {
-    border: 2px solid #000;
+    border: 20px solid #000;
     width: 80%;
     height: 50%;
 }
@@ -224,6 +220,20 @@ article:nth-of-type(2) {
 #form h2 {
     text-align: center;
 }
+
+.images-inner {
+    width: 100%;
+  }
+  
+  .images-inner .image {
+    display: inline-block;
+    width: 33%;
+    min-width: 250px;
+  }
+  
+  .images-inner .image img {
+    width: 100%;
+  }
 
 /* Style rules for form elements */
 fieldset, input, select, textarea {
@@ -422,10 +432,6 @@ footer p a {
         font-size: 1.8em;
     }
 
-    article h3 {
-        font-size: 1.75em;
-    }
-
     .pic-text {
         font-size: 1.5em;
         padding: 20px;
@@ -485,10 +491,8 @@ footer p a {
 
 /* Media Query for Print */
 @media print {
-
     body {
         background-color: #fff;
         color: #000;
     }
-
 }

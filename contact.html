@@ -11,24 +11,25 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400iRoboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="shortcut icon" href="images/favicon.png">
 </head>
 <body>
 
 	<header>
-		<h1>Greg Kaplan</h1>
+		<div class="logo-container">
+			<a href="index.html" title="Greg Kaplan">
+				<img src="images/logo1.jpg" alt="GK Logo">
+			</a>
+		</div>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>  
+				<li><a href="photography.html">Photography</a></li>   
+				<li><a href="contact.html">Contact</a></li>    
+			</ul>
+		</nav>
 	</header>
-	
-	<nav>
-		<ul>
-            <li><a href="index.html.html">Home</a></li>  
-            <li><a href="photography.html">Photography</a></li>   
-            <li><a href="contact.html">Contact</a></li> 
-        </ul>
-	</nav>
 	
 	<!-- Use the main area to add the main content to the webpage -->
 	<main>
@@ -39,9 +40,9 @@
             <p class="tel-link mobile"><a href="tel:3605405069">(360) 540-5069</a></p>
             <p>Email: <a href="mailto:gregkaplan11224@gmail.com" class="email-link">gregkaplan11224@gmail.com</a></p>
             <p>I am located in Bellingham, 98229</p>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84175.92705261867!2d-122.53134964586351!3d48.75329077892688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485962ef2458717%3A0xd57a9ca9cd39e0f0!2sBellingham%2C%20WA!5e0!3m2!1sen!2sus!4v1636314832098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        
+			
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84175.92705261867!2d-122.53134964586351!3d48.75329077892688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485962ef2458717%3A0xd57a9ca9cd39e0f0!2sBellingham%2C%20WA!5e0!3m2!1sen!2sus!4v1636314832098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+			
         </div>
 
 		<div id="form">
@@ -67,7 +68,7 @@
 					<p>I am interested in:</p>
 					<label for="photography"><input type="checkbox" name="interest" id="photography" value="Photography">Photography</label>
 					<label for="website"><input type="checkbox" name="interest" id="website" value="Website">Website</label>
-					<label for="non-destructive testing"><input type="checkbox" name="interest" id="non-destructive testing" value="Non-destructive testing">Non-destructive testing</label>
+					<label for="non-destructive-testing"><input type="checkbox" name="interest" id="non-destructive-testing" value="Non-destructive testing">Non-destructive testing</label>
 					<label for="other"><input type="checkbox" name="interest" id="other" value="Other">Other</label>
 				</fieldset>
 				
