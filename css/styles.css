@@ -175,7 +175,7 @@ main {
 }
 
 .pic-text {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -185,6 +185,7 @@ main {
     font-family: Verdana, Arial, sans-serif; 
     font-size: 1.5em; 
     font-weight: bold;
+    
 }
 .round {
     border-radius: 8px;
