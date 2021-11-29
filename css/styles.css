@@ -234,6 +234,7 @@ main {
   margin: 0px 15px 45px 15px;
   font-weight: bolder;
   font-style: italic;
+  box-shadow:#404040 4px 4px 4px 4px;
 }
 
 .images-inner .image img {
@@ -355,6 +356,7 @@ footer p a {
   .map {
     width: 600px;
     height: 450px;
+    box-shadow:#404040b6 4px 4px 4px 4px;
   }
   
   /* Tablet Viewport: Style rules for table */
