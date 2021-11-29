@@ -235,6 +235,7 @@ main {
   font-weight: bolder;
   font-style: italic;
   box-shadow:#404040 4px 4px 4px 4px;
+  text-align: center;
 }
 
 .images-inner .image img {
