@@ -232,6 +232,8 @@ main {
   width: 250px;
   padding: 25px;
   margin: 0px 15px 45px 15px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .images-inner .image img {
