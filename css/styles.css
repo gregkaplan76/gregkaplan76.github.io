@@ -275,8 +275,9 @@ footer p {
 }
 
 footer p a {
-  color: rgb(21, 25, 247);
+  font color: rgb(21, 25, 247);
   text-decoration: none;
+  
 }
 
 /* Media Query for Tablet Viewport */
