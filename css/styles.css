@@ -117,8 +117,54 @@ nav li a {
   text-align: center;
   box-shadow: 4px 4px 0 rgb(255 255 255 / 50%);
 }
+/*Style for "offer expires"*/
 
+#info {
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 300px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: relative, calc(100);
+  top: 0;
+  border-radius: 10px;
 
+}
+#hotelName {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+#roomRate {
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+}
+#specialRate {
+  font-size: 400%;
+  color: #ffb87a;
+  display: inline-block;
+  padding: 10px 0 20px 0;
+  margin: 0;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 75%;
+}
 
 @media screen and (max-width: 640px) {
   #hero .text-content {
