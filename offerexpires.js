@@ -7,8 +7,8 @@
   
     // Create a hotel object using object literal syntax
     var hotel = {
-      name: 'Park',
-      roomRate: 240, // Amount in dollars
+      name: 'Professional photos',
+      roomRate: 30, // Amount in dollars
       discount: 15,  // Percentage discount
       offerPrice: function() {
         var offerRate = this.roomRate * ((100 - this.discount) / 100);
