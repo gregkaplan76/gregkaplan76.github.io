@@ -11,7 +11,7 @@
       roomRate: 30, // Amount in dollars
       discount: 15,  // Percentage discount
       offerPrice: function() {
-        var offerRate = this.roomRate * ((100 - this.discount) / 100);
+        var offerRate = this.roomRate * ((100 - this.discount) / 100) +'/img';
         return offerRate;
       }
     };
