@@ -1,7 +1,7 @@
 // Create the HTML for the message
 var msg = '<div class=\"header\"><a id=\"close\" href="#">close X</a></div>';
 msg += '<div><h2>Warning</h2>';
-msg += 'The images your about to see are pretty sweet. ';
+msg += 'The images you are about to see are pretty sweet. ';
 msg += 'Imagine hiring me to take some for you!</div>';
 
 var elNote = document.createElement('div');       // Create a new element
