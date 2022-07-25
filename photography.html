@@ -50,6 +50,9 @@
                 </div>
             <p>etc.</p>
         </div>
+        
+        <script src="jquery.js"></script>
+        <script src="example.js"></script>
         <script src="click.js"></script>
         
         <!-- Use the main area to add the main content to the webpage -->
@@ -68,6 +71,17 @@
                 <div class="image"><img alt="bird" src="images/birdportrait1-min.jpg"><p> Bird portrait (Iverson Trail Preserve)</p></div>
             </div>
           </div>
+          <h4> Favorite Photo?</h4>
+          <ul id="fav-img">
+            <li id="one" class="hot" style="display: list-item;">Rocks under still water (Whatcom Falls)</li>
+            <li id="two" class="hot" style="display: list-item;">Plane at the marina (Sudden Valley Marina)</li>
+            <li id="three" class="hot" style="display: list-item;">Symmetry on the lake (Lake Louise)</li>
+            <li id="four" style="display: list-item;">Cell tower (near Lookout Mountain Preserve)</li>
+            <form id="newItemForm" style="display: block;">
+                <input type="text" id="itemDescription" placeholder="Add description">
+                <input type="submit" id="add" value="add">
+              </form>
+              <div id="newItemButton" style="display: none;"><button href="#" id="showForm">new item</button></div>
         
 	</main>
 	
