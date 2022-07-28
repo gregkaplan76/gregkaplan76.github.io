@@ -22,7 +22,7 @@
 					<img src="images/logo1.jpg" alt="GK Logo">
 				</a>
 			</div>
-
+	
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>  
@@ -31,9 +31,26 @@
 					<li><a href="contact.html">Contact</a></li> 
 				</ul>
 			</nav>
-			
 		</header>
-
+		
+		<!-- Button Script -->
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script>
+			function getadvice(){
+				w3.getHttpObject("https://api.adviceslip.com/advice",function(data){
+					advice=data.slip.advice
+					alert(advice)
+			});
+			}
+		</script>
+		
+		<button id="btn" onclick="getadvice()">Get some advice!</button>
+		<style>
+			#btn {
+				text-align: center;
+			}
+		</style>
+		
 		<div id="greeting">
 			<div id="content">
 				<div id="greeting" class="message">Hello User!</div>

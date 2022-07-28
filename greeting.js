@@ -8,4 +8,3 @@ var welcomeMessage = greeting + username + ", thanks for visiting my page"+'!';
 var el = document.getElementById('greeting');
 
 el.textContent = welcomeMessage;
-

@@ -118,6 +118,25 @@ nav li a {
   box-shadow: 4px 4px 0 rgb(255 255 255 / 50%);
 }
 
+#btn {
+  background-color: #4CAF50; /* Green */
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+}
+
+#btn:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
 
 /*Style for "offer expires"*/
 
@@ -131,7 +150,6 @@ nav li a {
   position: relative, calc(100);
   top: 0;
   border-radius: 10px;
-
 }
 
 #note {
@@ -390,9 +408,8 @@ footer p {
 }
 
 footer p a {
-  font color: rgb(21, 25, 247);
+  color: rgb(21, 25, 247);
   text-decoration: none;
-  
 }
 
 /* Media Query for Tablet Viewport */
