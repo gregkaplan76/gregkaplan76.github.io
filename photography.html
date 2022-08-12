@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 	<header>
@@ -33,6 +34,7 @@
                 <li><a href="contact.html">Contact</a></li>    
             </ul>
         </nav>
+        
         </header>
         <div id="info">
             <h2>Latest offer</h2>
@@ -44,39 +46,37 @@
             <div id="offerEnds">Offer expires next Saturday <br>(16 July 2022)</div>
             <script src="offerexpires.js"></script>
             <h2>For example:</h2>
-            <div id="answer">
-                <section id="answer"></section>
-                <script src="loop.js"></script>
-                </div>
+            
+            <section id="answer"></section>
+            <script src="loop.js"></script>
             <p>etc.</p>
         </div>
         
         <script src="click.js"></script>
-        <script src="tagged.js"></script>
         <script src="jquerylibrary.js"></script>
+        
         
         <!-- Use the main area to add the main content to the webpage -->
 	<main>
         <h4>Some of my photos</h4>
-        <div id="buttons">
-            <button class="active">Show All</button>
-            <button>Nature (6)</button>
-            <button> Industrial (2)</button>
-            <button>Vehicle (1)</button>
-            <button> Fun (1)</button>
+        <div id="buttons"></div>
+        <div id="search">
+            <input type="text" placeholder="filter by search" id="filter-search">
         </div>
         <div id="gallery">
-            <div class="image"><img alt="rocks" src="images/rockssmall-min.jpg" data-tags="Nature"><p>Rocks under still water (Whatcom Falls)</p></div>
-            <div class="image"><img alt="plane" src="images/planesmall-min.jpg" data-tags="Vehicle"><p>Plane at the marina (Sudden Valley Marina)</p></div>
-            <div class="image"><img alt="symmetry" src="images/symmetrysmall-min.JPG" data-tags="Nature"><p>Symmetry on the lake (Lake Louise)</p></div>
-            <div class="image"><img alt="tower" src="images/tower-small-min.JPG" data-tags="Industrial"><p>Cell tower (near Lookout Mountain Preserve)</p></div>
-            <div class="image"><img alt="whatcomfall" src="images/whatcomfall-small-min.jpg" data-tags="Nature, Industrial"><p>Bridge (Whatcom Falls)</p></div>
-            <div class="image"><img alt="death" src="images/death1-min.jpg" data-tags="Nature"><p>Laying in green pastures (Dike Road, Whidbey)</p></div>
-            <div class="image"><img alt="hard light" src="images/hardlight1-min.jpg" data-tags="Nature"><p>Hard light (Iverson Trail Preserve)</p></div>
-            <div class="image"><img alt="hobbit trail" src="images/hobbittrail-small-min.jpg" data-tags="Fun"><p>Cool light (Iverson Trail Preserve)</p></div>
-            <div class="image"><img alt="bird" src="images/birdportrait1-min.jpg" data-tags="Nature"><p> Bird portrait (Iverson Trail Preserve)</p></div>
+            <div class="image" data-tags="Nature"><img alt="rocks" src="images/rockssmall-min.jpg"><p>Rocks under still water (Whatcom Falls)</p></div>
+            <div class="image" data-tags="Vehicle"><img alt="plane" src="images/planesmall-min.jpg"><p>Plane at the marina (Sudden Valley Marina)</p></div>
+            <div class="image" data-tags="Nature"><img alt="symmetry" src="images/symmetrysmall-min.JPG" ><p>Symmetry on the lake (Lake Louise)</p></div>
+            <div class="image" data-tags="Industrial"><img alt="tower" src="images/tower-small-min.JPG"><p>Cell tower (near Lookout Mountain Preserve)</p></div>
+            <div class="image" data-tags="Nature, Industrial"><img alt="whatcomfall" src="images/whatcomfall-small-min.jpg"><p>Bridge (Whatcom Falls)</p></div>
+            <div class="image" data-tags="Nature"><img alt="death" src="images/death1-min.jpg"><p>Laying in green pastures (Dike Road, Whidbey)</p></div>
+            <div class="image" data-tags="Nature"><img alt="hard light" src="images/hardlight1-min.jpg"><p>Hard light (Iverson Trail Preserve)</p></div>
+            <div class="image" data-tags="Fun"><img alt="hobbit trail" src="images/hobbittrail-small-min.jpg"><p>Cool light (Iverson Trail Preserve)</p></div>
+            <div class="image" data-tags="Nature"><img alt="bird" src="images/birdportrait1-min.jpg"><p> Bird portrait (Iverson Trail Preserve)</p></div>
         </div>
 	</main>
+    <script src="search.js"></script>
+    
 	
 	<footer>
 		<p>&copy; Copyright 2022. All Rights Reserved.</p>
@@ -85,4 +85,6 @@
 	</footer>
 	
 </body>
+<script src="tagged.js"></script>
+
 </html>
