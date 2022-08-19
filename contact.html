@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400iRoboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png">
+
 </head>
 <body>
-
 	<header>
 		<div class="logo-container">
 			<a href="index.html" title="Greg Kaplan">
@@ -31,7 +31,7 @@
 			</ul>
 		</nav>
 	</header>
-	
+
 	<!-- Use the main area to add the main content to the webpage -->
 	<main>
         
@@ -45,10 +45,43 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84175.92705261867!2d-122.53134964586351!3d48.75329077892688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485962ef2458717%3A0xd57a9ca9cd39e0f0!2sBellingham%2C%20WA!5e0!3m2!1sen!2sus!4v1636314832098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
 			
         </div>
+		<div class="container">
+			<form method="post" action="/register" name="register" novalidate="">
+			  
+				<h4 class="welcome">Reach out</h4>
+			  </div>
+			  
+				<h2>Your Info</h2>
+				  <div class="name">
+					<label for="name" class="required">Name:</label>
+					<input type="text" placeholder="Enter your name" name="name" id="name" required="" title="Please enter your name">
+				  </div>
+				  <div class="email">
+					<label for="email" class="required">Email:</label>
+					<input type="email" placeholder="you@example.com" name="email" id="email" required="">
+				  </div>
+				
+			  </div>
 
+				<div class="bio">
+					<label for="bio">Why are you reaching out?</label>(max 140 characters):</label>
+					<textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+					<span id="bio-count" class="hide">140</span>
+				</div>
+				<div class="register"><input type="submit" value="Submit"></div>
+			</form>
+		  </div>
+		<script src="library v1.9.1.js"></script>
+		<script src="library v1.10.3.js"></script>
+		<script src="utilities.js"></script>
+		<script src="placeholder.js"></script>
+		<script src="password.js"></script>
+		<script src="validate.js"></script>
+		<script src="bio.js"></script>
+		<!--
 		<div id="form">
 			<h2>Complete the form below and I will contact you.</h2>
-			<form class="form-grid"><!--Start Form --> 
+			<form class="form-grid">
 				<fieldset>
 					<legend>Your Information</legend>
 					<label for="fName">First Name:</label> 
@@ -76,14 +109,12 @@
 				<input type="submit" id="submit" value ="Submit" class="btn">
 			</form>
 		</div>
-        
+		-->
 	</main>
-	
 	<footer>
 		<p>&copy; Copyright 2021. All Rights Reserved.</p>
 		<p>Site last updated: 8/6/2022</p>
 		<p><a href="mailto:gregkaplan11224@gmail.com">gregkaplan11224@gmail.com</a></p>
-	</footer>
-	
+	</footer>	
 </body>
 </html>

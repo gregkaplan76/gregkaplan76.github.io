@@ -287,6 +287,26 @@ button:hover, button.active {
   margin-bottom: 1%;
 }
 
+span.error {
+  padding-top: 1px;
+  margin-top: -1.4em;
+  margin-bottom: 1.4em;
+  display: block;
+  padding-left: 20px;
+  color: #242424;
+  background-image: url(https://www.javascriptbook.com/code/c13/img/icon-warning.png);
+  background-position: left 3px;
+  background-repeat: no-repeat;
+}
+
+.pass {
+  background-image: url(https://www.javascriptbook.com/code/c13/img/tick.png);
+}
+
+textarea + span.error, #bio-count {
+  margin: 0;
+}
+
 @media screen and (max-width: 640px) {
   #hero .text-content {
     font-size: 24px;
