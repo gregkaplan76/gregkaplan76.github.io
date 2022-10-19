@@ -131,6 +131,7 @@ nav li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-top: 7%;
 }
 
 #btn:hover {
@@ -564,6 +565,7 @@ footer p a {
 
   #btn .mobile {
     left: 39%;
+    padding-top: 100px;
   }
   
   /* Tablet Viewport: Style rules for table */
